@@ -16,5 +16,11 @@ public class Program {
 
         personal = fabricaAuxiliara.crearePersonal(TipPersonalAuxiliar.Brancardier);
         personal.afisareDescriere();
+
+        personal = fabricaAuxiliara.crearePersonal(TipPersonalAuxiliar.Secretar);
+        personal.afisareDescriere();
+
+        personal = fabricaAuxiliara.crearePersonal(TipPersonalAuxiliar.Registrator);
+        personal.afisareDescriere();
     }
 }
